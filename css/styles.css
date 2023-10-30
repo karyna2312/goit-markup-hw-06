@@ -1149,7 +1149,8 @@ flex-wrap: wrap;
         letter-spacing: 0.02em;
         max-width: 496px;
         margin: 0 auto 36px auto;
-        text-align: justify;
+        text-align: center;
+        text-transform: none;
     }
 
 .features-list {
@@ -1309,6 +1310,7 @@ padding-left: 108px;
              
 .header {
     max-width: 1440px;
+    padding: 0 156px;
 
 }
 
