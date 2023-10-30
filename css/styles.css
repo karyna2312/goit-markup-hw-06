@@ -274,7 +274,6 @@ button {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70),
                 rgba(46, 47, 66, 0.70)),
             url(../images/header-bg-dt.jpg);
-    max-width: 320px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
