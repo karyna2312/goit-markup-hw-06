@@ -54,7 +54,6 @@ button {
     background: #FFF;
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    max-width: 320px;
 }
 
 
@@ -290,7 +289,7 @@ button {
  @media (min-device-pixel-ratio: 2),
  (min-resolution: 192dpi),
  (min-resolution: 2dppx) {
-     .first-solutions {
+     .hero {
          background-image: linear-gradient(rgba(46, 47, 66, 0.70),
                  rgba(46, 47, 66, 0.70)),
              url(../images/header-bg-dt-2x.jpg);
@@ -669,7 +668,7 @@ flex-wrap: wrap;
 .footer-soc-wrap {
     display: flex;
     flex-direction: column;
-    margin-bottom: 72px;
+   
 
 }
 
@@ -684,9 +683,7 @@ flex-wrap: wrap;
     margin-bottom: 16px;
 }
 
-.footer-soc-wrap .footer-title-soc {
-    /* text-align: center; */
-}
+
 
 .footer-soc-list {
     display: flex;
@@ -1090,7 +1087,7 @@ flex-wrap: wrap;
         }
 
 .header {
-    max-width: 768px;
+
     margin: 0 auto;
 
 }
@@ -1131,7 +1128,7 @@ flex-wrap: wrap;
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-    .first-solutions {
+    .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70),
                 rgba(46, 47, 66, 0.70)),
             url(../images/header-bg-tab-2x.jpg);
@@ -1141,7 +1138,7 @@ flex-wrap: wrap;
     .hero {
         padding-top: 112px;
         padding-bottom: 112px;
-        min-width: 768px;
+        max-width: 768px;
     }
 
     .hero-title {
@@ -1156,7 +1153,8 @@ flex-wrap: wrap;
     }
 
 .features-list {
-    gap: 24px;
+    gap: 72px 24px;
+    justify-content: center
 
 }
 .features-container {
@@ -1164,7 +1162,8 @@ padding-left: 16px;
 padding-right: 16px;
 }
 .features-item {
-    width: calc((100% - 24px) / 2);
+    width: 264px;
+    
 }
 
 .features-subtitle {
@@ -1182,6 +1181,7 @@ padding: 0;
 
 .team-list {
     gap:64px 24px;
+    
 }
 
 .portfolio {
@@ -1190,12 +1190,11 @@ padding: 0;
 
 .portfolio-list {
     gap:72px 24px;
-    padding-left: 16px;
-        padding-right: 16px;
+    
 }
 
 .portfolio-list-item {
-    width: calc((100% - 24px) / 2);
+    width: 356px;
 }
 
 
@@ -1292,19 +1291,21 @@ padding-left: 108px;
 
 @media screen and (min-width: 1158px) {
     .container {
-        min-width: 1158px;
-        max-width: 1440px;
+        max-width: 1158px;
         margin: 0 auto;
+        padding: 0 15px;
     }
 
          @media (min-device-pixel-ratio: 2),
          (min-resolution: 192dpi),
          (min-resolution: 2dppx) {
-             .first-solutions {
+             .hero {
                  background-image: linear-gradient(rgba(46, 47, 66, 0.70),
                          rgba(46, 47, 66, 0.70)),
                      url(../images/header-bg-dt-2x.jpg);
              }
+             
+
              
 .header {
     max-width: 1440px;
